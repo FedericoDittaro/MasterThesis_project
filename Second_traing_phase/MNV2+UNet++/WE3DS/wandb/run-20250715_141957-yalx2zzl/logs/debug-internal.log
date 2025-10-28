@@ -1,0 +1,29 @@
+{"time":"2025-07-15T14:19:57.433551303+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/media/HDD/fdittaro/Second_traing_phase/MNV2+UNet++/WE3DS/wandb/run-20250715_141957-yalx2zzl/logs/debug-core.log"}
+{"time":"2025-07-15T14:19:57.717698781+02:00","level":"INFO","msg":"created new stream","id":"yalx2zzl"}
+{"time":"2025-07-15T14:19:57.717801608+02:00","level":"INFO","msg":"stream: started","id":"yalx2zzl"}
+{"time":"2025-07-15T14:19:57.717874883+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"yalx2zzl"}
+{"time":"2025-07-15T14:19:57.717939847+02:00","level":"INFO","msg":"sender: started","stream_id":"yalx2zzl"}
+{"time":"2025-07-15T14:19:57.717975913+02:00","level":"INFO","msg":"handler: started","stream_id":"yalx2zzl"}
+{"time":"2025-07-15T14:19:58.028979594+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-15T14:20:03.017960279+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-15T14:20:03.021293545+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-15T14:20:18.791555432+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-15T14:20:18.79365319+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-15T14:20:32.371726886+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-15T14:20:32.467807734+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-15T14:20:43.005588097+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-15T14:20:43.938457019+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-15T14:20:45.717434461+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-15T14:20:45.718597702+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-15T14:20:48.492065649+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-15T14:20:48.493210317+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-15T14:21:00.418721449+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-15T15:55:30.233963197+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-15T15:55:30.233996232+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-15T15:55:31.238196579+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.221128624,"progress":"781B/781B"}],"total_operations":1}}
+{"time":"2025-07-15T15:55:31.270769748+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-15T15:55:31.53331674+02:00","level":"INFO","msg":"stream: closing","id":"yalx2zzl"}
+{"time":"2025-07-15T15:55:31.533359195+02:00","level":"INFO","msg":"handler: closed","stream_id":"yalx2zzl"}
+{"time":"2025-07-15T15:55:31.533379784+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"yalx2zzl"}
+{"time":"2025-07-15T15:55:31.533433005+02:00","level":"INFO","msg":"sender: closed","stream_id":"yalx2zzl"}
+{"time":"2025-07-15T15:55:31.533524418+02:00","level":"INFO","msg":"stream: closed","id":"yalx2zzl"}

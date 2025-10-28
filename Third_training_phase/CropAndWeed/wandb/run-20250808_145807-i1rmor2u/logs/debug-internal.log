@@ -1,0 +1,31 @@
+{"time":"2025-08-08T14:58:07.606940469+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/media/HDD/fdittaro/Third_training_phase/CropAndWeed/wandb/run-20250808_145807-i1rmor2u/logs/debug-core.log"}
+{"time":"2025-08-08T14:58:07.903799742+02:00","level":"INFO","msg":"created new stream","id":"i1rmor2u"}
+{"time":"2025-08-08T14:58:07.90386838+02:00","level":"INFO","msg":"stream: started","id":"i1rmor2u"}
+{"time":"2025-08-08T14:58:07.903954514+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"i1rmor2u"}
+{"time":"2025-08-08T14:58:07.904037209+02:00","level":"INFO","msg":"handler: started","stream_id":"i1rmor2u"}
+{"time":"2025-08-08T14:58:07.90411081+02:00","level":"INFO","msg":"sender: started","stream_id":"i1rmor2u"}
+{"time":"2025-08-08T14:58:08.258856365+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-08T14:58:13.571482363+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-08T14:58:13.580240126+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-08T14:58:16.151607766+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-08T14:58:16.153893962+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-08T14:58:18.408812357+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-08T14:58:18.489824933+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-08T14:58:21.027125369+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-08T14:58:53.114412452+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-08T14:59:07.717786564+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-08T14:59:07.735466581+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-08T14:59:09.924276545+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-08T14:59:09.924937248+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-08T14:59:12.715231196+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-08T14:59:12.716260647+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-08T14:59:15.027433083+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-08T14:59:17.39814212+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-08T15:01:43.558449492+02:00","level":"INFO","msg":"stream: closing","id":"i1rmor2u"}
+{"time":"2025-08-08T15:01:43.558503102+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-08T15:01:43.558574806+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-08T15:01:44.191284525+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-08T15:01:44.39480888+02:00","level":"INFO","msg":"handler: closed","stream_id":"i1rmor2u"}
+{"time":"2025-08-08T15:01:44.394916737+02:00","level":"INFO","msg":"sender: closed","stream_id":"i1rmor2u"}
+{"time":"2025-08-08T15:01:44.394896374+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"i1rmor2u"}
+{"time":"2025-08-08T15:01:44.395057083+02:00","level":"INFO","msg":"stream: closed","id":"i1rmor2u"}

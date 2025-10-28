@@ -1,0 +1,7 @@
+Training set: 1797 immagini
+Validation set: 385 immagini
+Test set: 386 immagini
+ Numero di parametri allenabili: 6,631,555
+
+Epoch 1/25
+Training:  76%|█████████████████████████████████████████████████████▉                 | 171/225 [02:50<00:53,  1.00it/s]

@@ -1,0 +1,58 @@
+Training set: 1797 immagini
+Validation set: 385 immagini
+Test set: 386 immagini
+Conteggio pixel per classe: 100%|██████████████████████████████████████████████████| 1797/1797 [00:07<00:00, 254.20it/s]
+
+✅ Classi uniche trovate nel training set: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+📊 Pixel per classe:
+Classe  0:      42200
+Classe  1:  115363613
+Classe  2:     245824
+Classe  3:       5186
+Classe  4:        814
+Classe  5:     118857
+Classe  6:      72255
+Classe  7:      13434
+Classe  8:       5310
+Classe  9:     197877
+Classe 10:     249757
+Classe 11:     296875
+Classe 12:     181268
+Classe 13:      91103
+Classe 14:     390110
+Classe 15:     217388
+Classe 16:       6870
+Classe 17:      21528
+Classe 18:     247923
+
+⚖️ Pesi calcolati per CrossEntropyLoss (log balanced):
+Classe  0: Peso = 7.934412
+Classe  1: Peso = 0.703515
+Classe  2: Peso = 6.173943
+Classe  3: Peso = 10.030555
+Classe  4: Peso = 11.882275
+Classe  5: Peso = 6.899561
+Classe  6: Peso = 7.396885
+Classe  7: Peso = 9.078799
+Classe  8: Peso = 10.006927
+Classe  9: Peso = 6.390507
+Classe 10: Peso = 6.158104
+Classe 11: Peso = 5.985680
+Classe 12: Peso = 6.478035
+Classe 13: Peso = 7.165256
+Classe 14: Peso = 5.713352
+Classe 15: Peso = 6.296634
+Classe 16: Peso = 9.749368
+Classe 17: Peso = 8.607302
+Classe 18: Peso = 6.165458
+
+Epoch 1/50
+Training:   0%|                                                                                  | 0/29 [00:00<?, ?it/s][ WARN:0@88.352] global loadsave.cpp:268 findDecoder imread_(' ../../WE3DS-dataset/annotations/segmentation/SegmentationLabel/img_01172.png'): can't open/read file: check file path/integrity
+Training:   0%|                                                                                  | 0/29 [00:00<?, ?it/s]
+
+Epoch 1/50
+Training:   0%|                                                                                  | 0/29 [00:00<?, ?it/s][ WARN:0@334.558] global loadsave.cpp:268 findDecoder imread_(' ../../WE3DS-dataset/annotations/segmentation/SegmentationLabel/img_02436.png'): can't open/read file: check file path/integrity
+Training:   0%|                                                                                  | 0/29 [00:00<?, ?it/s]
+
+Epoch 1/50
+Training:  31%|██████████████████████▉                                                   | 9/29 [00:32<01:12,  3.64s/it]

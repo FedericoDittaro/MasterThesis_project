@@ -1,0 +1,31 @@
+{"time":"2025-07-01T10:02:32.483906494+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/media/HDD/fdittaro/ENB0+UNet++/ENB0+UNet++_codes/wandb/run-20250701_100232-g3fsfett/logs/debug-core.log"}
+{"time":"2025-07-01T10:02:32.758353611+02:00","level":"INFO","msg":"created new stream","id":"g3fsfett"}
+{"time":"2025-07-01T10:02:32.758419457+02:00","level":"INFO","msg":"stream: started","id":"g3fsfett"}
+{"time":"2025-07-01T10:02:32.758497053+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"g3fsfett"}
+{"time":"2025-07-01T10:02:32.7585516+02:00","level":"INFO","msg":"sender: started","stream_id":"g3fsfett"}
+{"time":"2025-07-01T10:02:32.758582531+02:00","level":"INFO","msg":"handler: started","stream_id":"g3fsfett"}
+{"time":"2025-07-01T10:02:33.017568173+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-01T10:02:40.710123159+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-01T10:02:40.712311104+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-01T10:02:46.654486198+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-01T10:02:46.69830901+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-01T10:03:11.205533094+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-01T10:03:11.286325183+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-01T10:03:20.21336879+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-01T10:03:21.147568244+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-01T10:03:23.433072376+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-01T10:03:23.43385913+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-01T10:03:30.114526462+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-01T10:03:30.11492239+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-01T10:03:37.031742454+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-01T10:03:37.032834302+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-01T10:04:00.451504452+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-01T10:53:42.004640332+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-01T10:53:42.00469588+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-01T10:53:42.790874516+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-01T10:53:43.009206295+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 24-24, summary, console lines 151-153","runtime_seconds":0.218112879}],"total_operations":1}}
+{"time":"2025-07-01T10:53:43.038338111+02:00","level":"INFO","msg":"stream: closing","id":"g3fsfett"}
+{"time":"2025-07-01T10:53:43.038379603+02:00","level":"INFO","msg":"handler: closed","stream_id":"g3fsfett"}
+{"time":"2025-07-01T10:53:43.03840075+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"g3fsfett"}
+{"time":"2025-07-01T10:53:43.038453687+02:00","level":"INFO","msg":"sender: closed","stream_id":"g3fsfett"}
+{"time":"2025-07-01T10:53:43.038508549+02:00","level":"INFO","msg":"stream: closed","id":"g3fsfett"}

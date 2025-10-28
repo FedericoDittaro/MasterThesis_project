@@ -1,0 +1,29 @@
+{"time":"2025-09-05T15:27:13.719277363+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/media/HDD/fdittaro/Fourth_training_phase/WE3DS/wandb/run-20250905_152713-yo3iog88/logs/debug-core.log"}
+{"time":"2025-09-05T15:27:14.203350643+02:00","level":"INFO","msg":"created new stream","id":"yo3iog88"}
+{"time":"2025-09-05T15:27:14.203429122+02:00","level":"INFO","msg":"stream: started","id":"yo3iog88"}
+{"time":"2025-09-05T15:27:14.203528409+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"yo3iog88"}
+{"time":"2025-09-05T15:27:14.203671411+02:00","level":"INFO","msg":"handler: started","stream_id":"yo3iog88"}
+{"time":"2025-09-05T15:27:14.203781125+02:00","level":"INFO","msg":"sender: started","stream_id":"yo3iog88"}
+{"time":"2025-09-05T15:27:14.611589848+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-09-05T15:27:16.956295774+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-09-05T15:27:16.99673165+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-09-05T15:27:19.584453079+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-09-05T15:27:19.586688435+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-09-05T15:27:21.887068682+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-09-05T15:27:22.106547815+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-09-05T15:27:57.383845031+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-09-05T15:27:57.481982791+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-09-05T15:27:59.29637918+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-09-05T15:27:59.297023767+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-09-05T15:28:06.368243784+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-09-05T15:28:06.369486519+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-09-05T15:28:18.210348578+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-09-05T17:01:20.739037705+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-09-05T17:01:20.739065266+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-09-05T17:01:21.743107185+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.574023489},{"desc":"uploading wandb-summary.json","runtime_seconds":0.574005104},{"desc":"uploading config.yaml","runtime_seconds":0.35273918}],"total_operations":3}}
+{"time":"2025-09-05T17:01:31.724878324+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-05T17:01:32.118639007+02:00","level":"INFO","msg":"stream: closing","id":"yo3iog88"}
+{"time":"2025-09-05T17:01:32.118668851+02:00","level":"INFO","msg":"handler: closed","stream_id":"yo3iog88"}
+{"time":"2025-09-05T17:01:32.118683341+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"yo3iog88"}
+{"time":"2025-09-05T17:01:32.118732424+02:00","level":"INFO","msg":"sender: closed","stream_id":"yo3iog88"}
+{"time":"2025-09-05T17:01:32.118779541+02:00","level":"INFO","msg":"stream: closed","id":"yo3iog88"}

@@ -1,0 +1,167 @@
+Training set: 1797 immagini
+Validation set: 385 immagini
+Test set: 386 immagini
+['resnet18', 'resnet34', 'resnet50', 'resnet101', 'resnet152', 'resnext50_32x4d', 'resnext101_32x4d', 'resnext101_32x8d', 'resnext101_32x16d', 'resnext101_32x32d', 'resnext101_32x48d', 'dpn68', 'dpn68b', 'dpn92', 'dpn98', 'dpn107', 'dpn131', 'vgg11', 'vgg11_bn', 'vgg13', 'vgg13_bn', 'vgg16', 'vgg16_bn', 'vgg19', 'vgg19_bn', 'senet154', 'se_resnet50', 'se_resnet101', 'se_resnet152', 'se_resnext50_32x4d', 'se_resnext101_32x4d', 'densenet121', 'densenet169', 'densenet201', 'densenet161', 'inceptionresnetv2', 'inceptionv4', 'efficientnet-b0', 'efficientnet-b1', 'efficientnet-b2', 'efficientnet-b3', 'efficientnet-b4', 'efficientnet-b5', 'efficientnet-b6', 'efficientnet-b7', 'mobilenet_v2', 'xception', 'timm-efficientnet-b0', 'timm-efficientnet-b1', 'timm-efficientnet-b2', 'timm-efficientnet-b3', 'timm-efficientnet-b4', 'timm-efficientnet-b5', 'timm-efficientnet-b6', 'timm-efficientnet-b7', 'timm-efficientnet-b8', 'timm-efficientnet-l2', 'timm-tf_efficientnet_lite0', 'timm-tf_efficientnet_lite1', 'timm-tf_efficientnet_lite2', 'timm-tf_efficientnet_lite3', 'timm-tf_efficientnet_lite4', 'timm-resnest14d', 'timm-resnest26d', 'timm-resnest50d', 'timm-resnest101e', 'timm-resnest200e', 'timm-resnest269e', 'timm-resnest50d_4s2x40d', 'timm-resnest50d_1s4x24d', 'timm-res2net50_26w_4s', 'timm-res2net101_26w_4s', 'timm-res2net50_26w_6s', 'timm-res2net50_26w_8s', 'timm-res2net50_48w_2s', 'timm-res2net50_14w_8s', 'timm-res2next50', 'timm-regnetx_002', 'timm-regnetx_004', 'timm-regnetx_006', 'timm-regnetx_008', 'timm-regnetx_016', 'timm-regnetx_032', 'timm-regnetx_040', 'timm-regnetx_064', 'timm-regnetx_080', 'timm-regnetx_120', 'timm-regnetx_160', 'timm-regnetx_320', 'timm-regnety_002', 'timm-regnety_004', 'timm-regnety_006', 'timm-regnety_008', 'timm-regnety_016', 'timm-regnety_032', 'timm-regnety_040', 'timm-regnety_064', 'timm-regnety_080', 'timm-regnety_120', 'timm-regnety_160', 'timm-regnety_320', 'timm-skresnet18', 'timm-skresnet34', 'timm-skresnext50_32x4d', 'timm-mobilenetv3_large_075', 'timm-mobilenetv3_large_100', 'timm-mobilenetv3_large_minimal_100', 'timm-mobilenetv3_small_075', 'timm-mobilenetv3_small_100', 'timm-mobilenetv3_small_minimal_100', 'timm-gernet_s', 'timm-gernet_m', 'timm-gernet_l', 'mit_b0', 'mit_b1', 'mit_b2', 'mit_b3', 'mit_b4', 'mit_b5', 'mobileone_s0', 'mobileone_s1', 'mobileone_s2', 'mobileone_s3', 'mobileone_s4']
+Downloading: "https://github.com/lukemelas/EfficientNet-PyTorch/releases/download/1.0/efficientnet-b0-355c32eb.pth" to /home/fdittaro/.cache/torch/hub/checkpoints/efficientnet-b0-355c32eb.pth
+100%|██████████████████████████████████████████████████████████████████████████████| 20.4M/20.4M [00:00<00:00, 37.4MB/s]
+ Numero di parametri allenabili: 6,254,079
+
+Epoch 1/25
+Training:   0%|                                                                                 | 0/225 [00:00<?, ?it/s][ WARN:0@158.813] global loadsave.cpp:268 findDecoder imread_('..././WE3DS-dataset/images/img_00236.png'): can't open/read file: check file path/integrity
+Training:   0%|                                                                                 | 0/225 [00:00<?, ?it/s]
+ Numero di parametri allenabili: 6,254,079
+
+Epoch 1/25
+Training:  60%|██████████████████████████████████████████▌                            | 135/225 [00:59<00:39,  2.28it/s]
+Numero di GPU disponibili: 2
+Nome della GPU: NVIDIA RTX A5000
+
+Epoch 1/25
+Training: 100%|███████████████████████████████████████████████████████████████████████| 225/225 [01:36<00:00,  2.33it/s]
+Validation: 100%|███████████████████████████████████████████████████████████████████████| 49/49 [00:19<00:00,  2.54it/s]
+Train Loss: 0.0814 | Val Loss: 0.1661 | IoU: 0.1228 | Acc: 0.9774
+✅ Model saved.
+
+Epoch 2/25
+Training: 100%|███████████████████████████████████████████████████████████████████████| 225/225 [01:36<00:00,  2.34it/s]
+Validation: 100%|███████████████████████████████████████████████████████████████████████| 49/49 [00:19<00:00,  2.54it/s]
+Train Loss: 0.0712 | Val Loss: 0.0793 | IoU: 0.1228 | Acc: 0.9774
+✅ Model saved.
+
+Epoch 3/25
+Training: 100%|███████████████████████████████████████████████████████████████████████| 225/225 [01:36<00:00,  2.33it/s]
+Validation: 100%|███████████████████████████████████████████████████████████████████████| 49/49 [00:19<00:00,  2.54it/s]
+Train Loss: 0.0675 | Val Loss: 0.0729 | IoU: 0.1224 | Acc: 0.9774
+✅ Model saved.
+
+Epoch 4/25
+Training: 100%|███████████████████████████████████████████████████████████████████████| 225/225 [01:36<00:00,  2.34it/s]
+Validation: 100%|███████████████████████████████████████████████████████████████████████| 49/49 [00:19<00:00,  2.54it/s]
+Train Loss: 0.0638 | Val Loss: 0.0699 | IoU: 0.1210 | Acc: 0.9777
+✅ Model saved.
+
+Epoch 5/25
+Training: 100%|███████████████████████████████████████████████████████████████████████| 225/225 [01:36<00:00,  2.33it/s]
+Validation: 100%|███████████████████████████████████████████████████████████████████████| 49/49 [00:19<00:00,  2.53it/s]
+Train Loss: 0.0608 | Val Loss: 0.0807 | IoU: 0.1237 | Acc: 0.9787
+No improvement. EarlyStopping counter: 1/5
+
+Epoch 6/25
+Training: 100%|███████████████████████████████████████████████████████████████████████| 225/225 [01:36<00:00,  2.33it/s]
+Validation: 100%|███████████████████████████████████████████████████████████████████████| 49/49 [00:19<00:00,  2.55it/s]
+Train Loss: 0.0580 | Val Loss: 0.0614 | IoU: 0.1441 | Acc: 0.9798
+✅ Model saved.
+
+Epoch 7/25
+Training: 100%|███████████████████████████████████████████████████████████████████████| 225/225 [01:36<00:00,  2.33it/s]
+Validation: 100%|███████████████████████████████████████████████████████████████████████| 49/49 [00:19<00:00,  2.54it/s]
+Train Loss: 0.0543 | Val Loss: 0.0648 | IoU: 0.1285 | Acc: 0.9795
+No improvement. EarlyStopping counter: 1/5
+
+Epoch 8/25
+Training: 100%|███████████████████████████████████████████████████████████████████████| 225/225 [01:36<00:00,  2.33it/s]
+Validation: 100%|███████████████████████████████████████████████████████████████████████| 49/49 [00:19<00:00,  2.54it/s]
+Train Loss: 0.0501 | Val Loss: 0.0568 | IoU: 0.1402 | Acc: 0.9809
+✅ Model saved.
+
+Epoch 9/25
+Training: 100%|███████████████████████████████████████████████████████████████████████| 225/225 [01:36<00:00,  2.34it/s]
+Validation: 100%|███████████████████████████████████████████████████████████████████████| 49/49 [00:19<00:00,  2.54it/s]
+Train Loss: 0.0470 | Val Loss: 0.0613 | IoU: 0.1563 | Acc: 0.9813
+No improvement. EarlyStopping counter: 1/5
+
+Epoch 10/25
+Training: 100%|███████████████████████████████████████████████████████████████████████| 225/225 [01:36<00:00,  2.33it/s]
+Validation: 100%|███████████████████████████████████████████████████████████████████████| 49/49 [00:19<00:00,  2.55it/s]
+Train Loss: 0.0453 | Val Loss: 0.0702 | IoU: 0.1557 | Acc: 0.9795
+No improvement. EarlyStopping counter: 2/5
+
+Epoch 11/25
+Training: 100%|███████████████████████████████████████████████████████████████████████| 225/225 [01:36<00:00,  2.33it/s]
+Validation: 100%|███████████████████████████████████████████████████████████████████████| 49/49 [00:19<00:00,  2.55it/s]
+Train Loss: 0.0418 | Val Loss: 0.0435 | IoU: 0.1960 | Acc: 0.9860
+✅ Model saved.
+
+Epoch 12/25
+Training: 100%|███████████████████████████████████████████████████████████████████████| 225/225 [01:36<00:00,  2.33it/s]
+Validation: 100%|███████████████████████████████████████████████████████████████████████| 49/49 [00:19<00:00,  2.55it/s]
+Train Loss: 0.0397 | Val Loss: 0.0406 | IoU: 0.2081 | Acc: 0.9871
+✅ Model saved.
+
+Epoch 13/25
+Training: 100%|███████████████████████████████████████████████████████████████████████| 225/225 [01:36<00:00,  2.33it/s]
+Validation: 100%|███████████████████████████████████████████████████████████████████████| 49/49 [00:19<00:00,  2.54it/s]
+Train Loss: 0.0374 | Val Loss: 0.0432 | IoU: 0.1995 | Acc: 0.9855
+No improvement. EarlyStopping counter: 1/5
+
+Epoch 14/25
+Training: 100%|███████████████████████████████████████████████████████████████████████| 225/225 [01:36<00:00,  2.33it/s]
+Validation: 100%|███████████████████████████████████████████████████████████████████████| 49/49 [00:19<00:00,  2.55it/s]
+Train Loss: 0.0369 | Val Loss: 0.0446 | IoU: 0.2069 | Acc: 0.9855
+No improvement. EarlyStopping counter: 2/5
+
+Epoch 15/25
+Training: 100%|███████████████████████████████████████████████████████████████████████| 225/225 [01:36<00:00,  2.33it/s]
+Validation: 100%|███████████████████████████████████████████████████████████████████████| 49/49 [00:19<00:00,  2.54it/s]
+Train Loss: 0.0335 | Val Loss: 0.0387 | IoU: 0.2371 | Acc: 0.9866
+✅ Model saved.
+
+Epoch 16/25
+Training: 100%|███████████████████████████████████████████████████████████████████████| 225/225 [01:36<00:00,  2.34it/s]
+Validation: 100%|███████████████████████████████████████████████████████████████████████| 49/49 [00:19<00:00,  2.54it/s]
+Train Loss: 0.0312 | Val Loss: 0.0362 | IoU: 0.2415 | Acc: 0.9871
+✅ Model saved.
+
+Epoch 17/25
+Training: 100%|███████████████████████████████████████████████████████████████████████| 225/225 [01:36<00:00,  2.33it/s]
+Validation: 100%|███████████████████████████████████████████████████████████████████████| 49/49 [00:19<00:00,  2.55it/s]
+Train Loss: 0.0337 | Val Loss: 0.0830 | IoU: 0.1718 | Acc: 0.9827
+No improvement. EarlyStopping counter: 1/5
+
+Epoch 18/25
+Training: 100%|███████████████████████████████████████████████████████████████████████| 225/225 [01:36<00:00,  2.34it/s]
+Validation: 100%|███████████████████████████████████████████████████████████████████████| 49/49 [00:19<00:00,  2.54it/s]
+Train Loss: 0.0334 | Val Loss: 0.0382 | IoU: 0.2312 | Acc: 0.9871
+No improvement. EarlyStopping counter: 2/5
+
+Epoch 19/25
+Training: 100%|███████████████████████████████████████████████████████████████████████| 225/225 [01:36<00:00,  2.33it/s]
+Validation: 100%|███████████████████████████████████████████████████████████████████████| 49/49 [00:19<00:00,  2.55it/s]
+Train Loss: 0.0309 | Val Loss: 0.0345 | IoU: 0.2492 | Acc: 0.9892
+✅ Model saved.
+
+Epoch 20/25
+Training: 100%|███████████████████████████████████████████████████████████████████████| 225/225 [01:36<00:00,  2.33it/s]
+Validation: 100%|███████████████████████████████████████████████████████████████████████| 49/49 [00:19<00:00,  2.54it/s]
+Train Loss: 0.0298 | Val Loss: 0.0303 | IoU: 0.2722 | Acc: 0.9903
+✅ Model saved.
+
+Epoch 21/25
+Training: 100%|███████████████████████████████████████████████████████████████████████| 225/225 [01:36<00:00,  2.33it/s]
+Validation: 100%|███████████████████████████████████████████████████████████████████████| 49/49 [00:19<00:00,  2.54it/s]
+Train Loss: 0.0263 | Val Loss: 0.0308 | IoU: 0.2777 | Acc: 0.9908
+No improvement. EarlyStopping counter: 1/5
+
+Epoch 22/25
+Training: 100%|███████████████████████████████████████████████████████████████████████| 225/225 [01:36<00:00,  2.33it/s]
+Validation: 100%|███████████████████████████████████████████████████████████████████████| 49/49 [00:19<00:00,  2.54it/s]
+Train Loss: 0.0280 | Val Loss: 0.0372 | IoU: 0.2616 | Acc: 0.9881
+No improvement. EarlyStopping counter: 2/5
+
+Epoch 23/25
+Training: 100%|███████████████████████████████████████████████████████████████████████| 225/225 [01:36<00:00,  2.33it/s]
+Validation: 100%|███████████████████████████████████████████████████████████████████████| 49/49 [00:19<00:00,  2.54it/s]
+Train Loss: 0.0267 | Val Loss: 0.0301 | IoU: 0.3004 | Acc: 0.9908
+✅ Model saved.
+
+Epoch 24/25
+Training: 100%|███████████████████████████████████████████████████████████████████████| 225/225 [01:36<00:00,  2.33it/s]
+Validation: 100%|███████████████████████████████████████████████████████████████████████| 49/49 [00:19<00:00,  2.55it/s]
+Train Loss: 0.0262 | Val Loss: 0.0332 | IoU: 0.2640 | Acc: 0.9896
+No improvement. EarlyStopping counter: 1/5
+
+Epoch 25/25
+Training: 100%|███████████████████████████████████████████████████████████████████████| 225/225 [01:36<00:00,  2.33it/s]
+Validation: 100%|███████████████████████████████████████████████████████████████████████| 49/49 [00:19<00:00,  2.54it/s]
+Train Loss: 0.0314 | Val Loss: 0.0569 | IoU: 0.1860 | Acc: 0.9856
+No improvement. EarlyStopping counter: 2/5

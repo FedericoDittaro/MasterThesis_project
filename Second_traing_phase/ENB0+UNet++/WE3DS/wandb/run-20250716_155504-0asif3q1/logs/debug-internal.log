@@ -1,0 +1,29 @@
+{"time":"2025-07-16T15:55:04.614093292+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/media/HDD/fdittaro/Second_traing_phase/ENB0+UNet++/WE3DS/wandb/run-20250716_155504-0asif3q1/logs/debug-core.log"}
+{"time":"2025-07-16T15:55:04.919340053+02:00","level":"INFO","msg":"created new stream","id":"0asif3q1"}
+{"time":"2025-07-16T15:55:04.919419309+02:00","level":"INFO","msg":"stream: started","id":"0asif3q1"}
+{"time":"2025-07-16T15:55:04.919506352+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"0asif3q1"}
+{"time":"2025-07-16T15:55:04.919552266+02:00","level":"INFO","msg":"handler: started","stream_id":"0asif3q1"}
+{"time":"2025-07-16T15:55:04.919683659+02:00","level":"INFO","msg":"sender: started","stream_id":"0asif3q1"}
+{"time":"2025-07-16T15:55:05.281281385+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-16T15:55:08.636034718+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-16T15:55:08.638990245+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-16T15:55:24.925097643+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-16T15:55:24.934660867+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-16T15:55:42.929666207+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-16T15:55:43.008926581+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-16T15:55:46.311369892+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-16T15:55:47.246165577+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-16T15:55:58.857159821+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-16T15:55:58.857830463+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-16T15:56:01.389134386+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-16T15:56:01.390233237+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-16T15:56:15.479307343+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-16T16:17:13.659523326+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-16T16:17:35.947139909+02:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/federico-dittaro-university-of-udine/Second_phase_WE3DS_dataset-segmentation/0asif3q1/file_stream"}
+{"time":"2025-07-16T16:17:35.947239429+02:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/federico-dittaro-university-of-udine/Second_phase_WE3DS_dataset-segmentation/0asif3q1/file_stream: {\"error\":\"run Second_phase_WE3DS_dataset-segmentation/0asif3q1 not found while streaming file\"}"}
+{"time":"2025-07-16T16:18:02.404052042+02:00","level":"INFO","msg":"stream: closing","id":"0asif3q1"}
+{"time":"2025-07-16T16:18:02.404125951+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-16T16:18:02.40420131+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-16T16:18:02.568912305+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run 0asif3q1 was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-07-16T16:18:02.607411084+02:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-07-16T16:18:02.607575505+02:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"run Second_phase_WE3DS_dataset-segmentation/0asif3q1 not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}

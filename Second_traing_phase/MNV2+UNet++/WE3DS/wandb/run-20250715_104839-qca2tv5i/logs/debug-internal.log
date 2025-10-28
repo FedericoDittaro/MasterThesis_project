@@ -1,0 +1,21 @@
+{"time":"2025-07-15T10:48:39.108292812+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/media/HDD/fdittaro/Second_traing_phase/MNV2+UNet++/WE3DS/wandb/run-20250715_104839-qca2tv5i/logs/debug-core.log"}
+{"time":"2025-07-15T10:48:39.390782006+02:00","level":"INFO","msg":"created new stream","id":"qca2tv5i"}
+{"time":"2025-07-15T10:48:39.390842209+02:00","level":"INFO","msg":"stream: started","id":"qca2tv5i"}
+{"time":"2025-07-15T10:48:39.390917337+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"qca2tv5i"}
+{"time":"2025-07-15T10:48:39.390983847+02:00","level":"INFO","msg":"handler: started","stream_id":"qca2tv5i"}
+{"time":"2025-07-15T10:48:39.39101348+02:00","level":"INFO","msg":"sender: started","stream_id":"qca2tv5i"}
+{"time":"2025-07-15T10:48:39.646918649+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-15T10:48:55.45040645+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-15T10:48:55.452307753+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-15T10:49:02.276570525+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-15T10:49:02.369055452+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-15T10:49:15.845550689+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-15T10:49:18.841373591+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-15T10:49:41.951971721+02:00","level":"INFO","msg":"stream: closing","id":"qca2tv5i"}
+{"time":"2025-07-15T10:49:41.952021563+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-15T10:49:41.952135516+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-15T10:49:42.556402232+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-15T10:49:42.788717654+02:00","level":"INFO","msg":"handler: closed","stream_id":"qca2tv5i"}
+{"time":"2025-07-15T10:49:42.788778487+02:00","level":"INFO","msg":"sender: closed","stream_id":"qca2tv5i"}
+{"time":"2025-07-15T10:49:42.788756887+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"qca2tv5i"}
+{"time":"2025-07-15T10:49:42.788880576+02:00","level":"INFO","msg":"stream: closed","id":"qca2tv5i"}

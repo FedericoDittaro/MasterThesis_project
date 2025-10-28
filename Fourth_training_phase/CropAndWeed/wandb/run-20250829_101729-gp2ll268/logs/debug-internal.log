@@ -1,0 +1,32 @@
+{"time":"2025-08-29T10:17:29.838017671+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/media/HDD/fdittaro/Fourth_training_phase/CropAndWeed/wandb/run-20250829_101729-gp2ll268/logs/debug-core.log"}
+{"time":"2025-08-29T10:17:30.264656034+02:00","level":"INFO","msg":"created new stream","id":"gp2ll268"}
+{"time":"2025-08-29T10:17:30.265463278+02:00","level":"INFO","msg":"stream: started","id":"gp2ll268"}
+{"time":"2025-08-29T10:17:30.265512394+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"gp2ll268"}
+{"time":"2025-08-29T10:17:30.265548478+02:00","level":"INFO","msg":"sender: started","stream_id":"gp2ll268"}
+{"time":"2025-08-29T10:17:30.265594218+02:00","level":"INFO","msg":"handler: started","stream_id":"gp2ll268"}
+{"time":"2025-08-29T10:17:30.618801653+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-29T10:17:34.599612051+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-29T10:17:35.317733271+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-29T10:17:40.0913203+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-29T10:17:40.104254139+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-29T10:17:47.575970302+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-29T10:17:47.878824936+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-29T10:17:53.178262056+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-29T10:18:38.803432732+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-29T10:18:55.806068527+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-29T10:18:55.915374143+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-29T10:18:58.163616379+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-29T10:18:58.164268447+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-29T10:19:01.752281289+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-29T10:19:01.753621296+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-29T10:19:10.380542474+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-29T10:43:47.454380462+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-08-29T12:52:04.078618045+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-29T12:52:04.078646292+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-29T12:52:04.901512137+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-29T12:52:05.082894272+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 49-49, summary, console lines 606-610","runtime_seconds":0.242599102}],"total_operations":1}}
+{"time":"2025-08-29T12:52:05.459879679+02:00","level":"INFO","msg":"stream: closing","id":"gp2ll268"}
+{"time":"2025-08-29T12:52:05.459894154+02:00","level":"INFO","msg":"handler: closed","stream_id":"gp2ll268"}
+{"time":"2025-08-29T12:52:05.459899435+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"gp2ll268"}
+{"time":"2025-08-29T12:52:05.459925922+02:00","level":"INFO","msg":"sender: closed","stream_id":"gp2ll268"}
+{"time":"2025-08-29T12:52:05.459930981+02:00","level":"INFO","msg":"stream: closed","id":"gp2ll268"}

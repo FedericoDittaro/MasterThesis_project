@@ -1,0 +1,40 @@
+{
+  "os": "Linux-5.4.0-150-generic-x86_64-with-glibc2.27",
+  "python": "CPython 3.8.0",
+  "startedAt": "2025-07-10T15:17:39.449300Z",
+  "program": "Second_traing_phase/Object-detection/YOLOv11n_detection.ipynb",
+  "email": "fede.dittaro@gmail.com",
+  "root": "/media/HDD/fdittaro/Second_traing_phase/Object-detection",
+  "host": "bernini",
+  "executable": "/media/HDD/fdittaro/env/bin/python3",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "gpu": "NVIDIA RTX A5000",
+  "gpu_count": 2,
+  "disk": {
+    "/": {
+      "total": "982820896768",
+      "used": "910991163392"
+    }
+  },
+  "memory": {
+    "total": "33581772800"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 8
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA RTX A5000",
+      "memoryTotal": "25411059712",
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A5000",
+      "memoryTotal": "25434652672",
+      "architecture": "Ampere"
+    }
+  ],
+  "cudaVersion": "11.4"
+}

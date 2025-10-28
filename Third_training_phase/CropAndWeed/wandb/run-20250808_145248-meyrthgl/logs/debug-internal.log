@@ -1,0 +1,37 @@
+{"time":"2025-08-08T14:52:48.367523345+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/media/HDD/fdittaro/Third_training_phase/CropAndWeed/wandb/run-20250808_145248-meyrthgl/logs/debug-core.log"}
+{"time":"2025-08-08T14:52:48.642938122+02:00","level":"INFO","msg":"created new stream","id":"meyrthgl"}
+{"time":"2025-08-08T14:52:48.6430477+02:00","level":"INFO","msg":"stream: started","id":"meyrthgl"}
+{"time":"2025-08-08T14:52:48.643126303+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"meyrthgl"}
+{"time":"2025-08-08T14:52:48.643187017+02:00","level":"INFO","msg":"sender: started","stream_id":"meyrthgl"}
+{"time":"2025-08-08T14:52:48.643280609+02:00","level":"INFO","msg":"handler: started","stream_id":"meyrthgl"}
+{"time":"2025-08-08T14:52:48.909500838+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-08T14:53:01.227748197+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-08T14:53:01.269309935+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-08T14:53:05.509530396+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-08T14:53:05.511996773+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-08T14:53:21.05178756+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-08T14:53:21.128870684+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-08T14:53:24.786158625+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-08T14:53:25.128382374+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-08T14:54:45.48282988+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-08T14:54:45.504592583+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-08T14:54:56.27341548+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-08T14:55:28.568376627+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-08T14:55:55.546822371+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-08T14:55:55.582486821+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-08T14:55:57.320257448+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-08T14:55:57.321269223+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-08T14:56:00.79462546+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-08T14:56:00.837386755+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-08T14:56:07.146904728+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-08T14:56:10.043008189+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-08T14:56:36.307663739+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-08T14:56:36.714425194+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-08T14:57:19.603008409+02:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/federico-dittaro-university-of-udine/Third_phase_CropAndWeed_dataset-segmentation/meyrthgl/file_stream"}
+{"time":"2025-08-08T14:57:19.603130357+02:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/federico-dittaro-university-of-udine/Third_phase_CropAndWeed_dataset-segmentation/meyrthgl/file_stream: {\"error\":\"run Third_phase_CropAndWeed_dataset-segmentation/meyrthgl not found while streaming file\"}"}
+{"time":"2025-08-08T14:57:32.046337459+02:00","level":"INFO","msg":"stream: closing","id":"meyrthgl"}
+{"time":"2025-08-08T14:57:32.046406116+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-08T14:57:32.046502102+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-08T14:57:32.19659971+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run meyrthgl was previously created and deleted; try a new run id\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-08-08T14:57:32.243144223+02:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-08-08T14:57:32.24333299+02:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"run Third_phase_CropAndWeed_dataset-segmentation/meyrthgl not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}

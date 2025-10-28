@@ -1,0 +1,16 @@
+{"time":"2025-07-03T14:47:57.167730994+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/media/HDD/fdittaro/Object-detection/YOLOv11n/wandb/run-20250703_144757-jztlgmsm/logs/debug-core.log"}
+{"time":"2025-07-03T14:47:57.697259211+02:00","level":"INFO","msg":"created new stream","id":"jztlgmsm"}
+{"time":"2025-07-03T14:47:57.697282569+02:00","level":"INFO","msg":"stream: started","id":"jztlgmsm"}
+{"time":"2025-07-03T14:47:57.697331992+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"jztlgmsm"}
+{"time":"2025-07-03T14:47:57.697354519+02:00","level":"INFO","msg":"sender: started","stream_id":"jztlgmsm"}
+{"time":"2025-07-03T14:47:57.697706979+02:00","level":"INFO","msg":"handler: started","stream_id":"jztlgmsm"}
+{"time":"2025-07-03T14:47:57.951972955+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-03T15:10:58.552099836+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-03T15:10:58.552126776+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-03T15:10:59.554125027+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run_jztlgmsm_model","runtime_seconds":3.635724963},{"desc":"uploading artifact run-jztlgmsm-curvesF1-ConfidenceB_table","runtime_seconds":2.310576604},{"desc":"uploading artifact run-jztlgmsm-curvesPrecision-ConfidenceB_table","runtime_seconds":1.6802824410000001},{"desc":"uploading artifact run-jztlgmsm-curvesRecall-ConfidenceB_table","runtime_seconds":1.057807769,"subtasks":[{"desc":"curves/Recall-Confidence(B)_table.table.json","runtime_seconds":0.316959618,"progress":"238.2KB/238.2KB"}]}],"total_operations":4}}
+{"time":"2025-07-03T15:11:00.951789058+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-03T15:11:01.177162669+02:00","level":"INFO","msg":"stream: closing","id":"jztlgmsm"}
+{"time":"2025-07-03T15:11:01.177172094+02:00","level":"INFO","msg":"handler: closed","stream_id":"jztlgmsm"}
+{"time":"2025-07-03T15:11:01.177177972+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"jztlgmsm"}
+{"time":"2025-07-03T15:11:01.177209908+02:00","level":"INFO","msg":"sender: closed","stream_id":"jztlgmsm"}
+{"time":"2025-07-03T15:11:01.177224921+02:00","level":"INFO","msg":"stream: closed","id":"jztlgmsm"}

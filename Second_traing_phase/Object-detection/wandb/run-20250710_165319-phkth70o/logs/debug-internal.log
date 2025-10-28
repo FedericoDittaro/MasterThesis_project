@@ -1,0 +1,16 @@
+{"time":"2025-07-10T16:53:19.521025835+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/media/HDD/fdittaro/Second_traing_phase/Object-detection/YOLOv11n_bs16/wandb/run-20250710_165319-phkth70o/logs/debug-core.log"}
+{"time":"2025-07-10T16:53:19.848598268+02:00","level":"INFO","msg":"created new stream","id":"phkth70o"}
+{"time":"2025-07-10T16:53:19.848660801+02:00","level":"INFO","msg":"stream: started","id":"phkth70o"}
+{"time":"2025-07-10T16:53:19.848748844+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"phkth70o"}
+{"time":"2025-07-10T16:53:19.848832516+02:00","level":"INFO","msg":"handler: started","stream_id":"phkth70o"}
+{"time":"2025-07-10T16:53:19.84888885+02:00","level":"INFO","msg":"sender: started","stream_id":"phkth70o"}
+{"time":"2025-07-10T16:53:20.190658623+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-10T17:08:27.18720652+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-10T17:08:27.187262916+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-10T17:08:28.192266627+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-phkth70o-curvesF1-ConfidenceB_table","runtime_seconds":2.417061294,"subtasks":[{"desc":"curves/F1-Confidence(B)_table.table.json","runtime_seconds":0.9767185,"progress":"238.5KB/238.5KB"}]},{"desc":"uploading artifact run-phkth70o-curvesPrecision-ConfidenceB_table","runtime_seconds":1.7803332520000001},{"desc":"uploading artifact run-phkth70o-curvesRecall-ConfidenceB_table","runtime_seconds":1.099320234,"subtasks":[{"desc":"curves/Recall-Confidence(B)_table.table.json","runtime_seconds":0.44474228,"progress":"238.4KB/238.4KB"}]}],"total_operations":3}}
+{"time":"2025-07-10T17:08:29.569272109+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-10T17:08:29.847086655+02:00","level":"INFO","msg":"stream: closing","id":"phkth70o"}
+{"time":"2025-07-10T17:08:29.847095802+02:00","level":"INFO","msg":"handler: closed","stream_id":"phkth70o"}
+{"time":"2025-07-10T17:08:29.847116168+02:00","level":"INFO","msg":"sender: closed","stream_id":"phkth70o"}
+{"time":"2025-07-10T17:08:29.847115086+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"phkth70o"}
+{"time":"2025-07-10T17:08:29.847140214+02:00","level":"INFO","msg":"stream: closed","id":"phkth70o"}

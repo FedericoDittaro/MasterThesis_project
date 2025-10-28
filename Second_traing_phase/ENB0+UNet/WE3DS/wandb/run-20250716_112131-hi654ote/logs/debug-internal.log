@@ -1,0 +1,30 @@
+{"time":"2025-07-16T11:21:31.546974095+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/media/HDD/fdittaro/Second_traing_phase/ENB0+UNet/WE3DS/wandb/run-20250716_112131-hi654ote/logs/debug-core.log"}
+{"time":"2025-07-16T11:21:31.831310759+02:00","level":"INFO","msg":"created new stream","id":"hi654ote"}
+{"time":"2025-07-16T11:21:31.83137702+02:00","level":"INFO","msg":"stream: started","id":"hi654ote"}
+{"time":"2025-07-16T11:21:31.831453782+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"hi654ote"}
+{"time":"2025-07-16T11:21:31.831515343+02:00","level":"INFO","msg":"handler: started","stream_id":"hi654ote"}
+{"time":"2025-07-16T11:21:31.831546855+02:00","level":"INFO","msg":"sender: started","stream_id":"hi654ote"}
+{"time":"2025-07-16T11:21:32.15293793+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-16T11:21:34.585101083+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-16T11:21:34.588149952+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-16T11:21:47.965292988+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-16T11:21:47.968054855+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-16T11:21:53.550855367+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-16T11:21:53.626837126+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-16T11:21:59.578478452+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-16T11:22:00.516036202+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-16T11:22:02.594082684+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-16T11:22:02.595241924+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-16T11:22:06.725251102+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-16T11:22:06.726262105+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-16T11:22:12.651388799+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-16T12:41:17.308417486+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-07-16T12:57:00.874012173+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-16T12:57:00.87406372+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-16T12:57:01.698522246+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-16T12:57:01.878641707+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 49-49, summary, console lines 301-303","runtime_seconds":0.179903016}],"total_operations":1}}
+{"time":"2025-07-16T12:57:01.967976112+02:00","level":"INFO","msg":"stream: closing","id":"hi654ote"}
+{"time":"2025-07-16T12:57:01.968014529+02:00","level":"INFO","msg":"handler: closed","stream_id":"hi654ote"}
+{"time":"2025-07-16T12:57:01.96803607+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"hi654ote"}
+{"time":"2025-07-16T12:57:01.968091708+02:00","level":"INFO","msg":"sender: closed","stream_id":"hi654ote"}
+{"time":"2025-07-16T12:57:01.968145797+02:00","level":"INFO","msg":"stream: closed","id":"hi654ote"}

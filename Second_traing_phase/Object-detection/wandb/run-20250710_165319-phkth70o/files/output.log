@@ -1,0 +1,229 @@
+Freezing layer 'model.23.dfl.conv.weight'
+[34m[1mAMP: [0mrunning Automatic Mixed Precision (AMP) checks...
+[34m[1mAMP: [0mchecks passed ✅
+[34m[1mtrain: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8828.5±1286.2 MB/s, size: 1240.4 KB)
+[34m[1mtrain: [0mScanning /media/HDD/fdittaro/cropandweed-dataset/labels/train.cache... 5623 images, 173 backgrounds, 0 corrupt: 1[0m
+[34m[1malbumentations: [0mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01, num_output_channels=3, method='weighted_average'), CLAHE(p=0.01, clip_limit=(1.0, 4.0), tile_grid_size=(8, 8))
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 6215.9±3362.5 MB/s, size: 1328.6 KB)
+[34m[1mval: [0mScanning /media/HDD/fdittaro/cropandweed-dataset/labels/val.cache... 1205 images, 29 backgrounds, 0 corrupt: 100%|█[0m
+Plotting labels to Second_phase_CropAndWeed_dataset-detection/yolov11n_bs32/labels.jpg...
+[34m[1moptimizer:[0m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[0m AdamW(lr=9.5e-05, momentum=0.9) with parameter groups 81 weight(decay=0.0), 88 weight(decay=0.0005), 87 bias(decay=0.0)
+Image sizes 640 train, 640 val
+Using 4 dataloader workers
+Logging results to [1mSecond_phase_CropAndWeed_dataset-detection/yolov11n_bs32[0m
+Starting training for 25 epochs...
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+       1/25      11.3G      1.935       5.39      1.274        417        640: 100%|██████████| 176/176 [00:32<00:00,  5
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [00:03<
+                   all       1205      16550    0.00961      0.177     0.0159     0.0109
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+       2/25      11.3G      1.755      4.114       1.09        575        640: 100%|██████████| 176/176 [00:31<00:00,  5
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [00:03<
+                   all       1205      16550      0.574     0.0593     0.0377     0.0261
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+       3/25      11.1G      1.659      3.352      1.064        612        640: 100%|██████████| 176/176 [00:31<00:00,  5
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [00:04<
+                   all       1205      16550      0.441     0.0954     0.0696     0.0489
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+       4/25      9.86G      1.558      2.901       1.04        431        640: 100%|██████████| 176/176 [00:31<00:00,  5
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [00:04<
+                   all       1205      16550      0.451      0.135     0.0914     0.0652
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+       5/25      11.4G      1.502      2.657      1.022        817        640: 100%|██████████| 176/176 [00:30<00:00,  5
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [00:04<
+                   all       1205      16550      0.391      0.165      0.119     0.0838
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+       6/25      11.4G      1.465      2.521      1.016        440        640: 100%|██████████| 176/176 [00:31<00:00,  5
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [00:04<
+                   all       1205      16550      0.417      0.184      0.145      0.104
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+       7/25      11.4G      1.434      2.368      1.006        524        640: 100%|██████████| 176/176 [00:30<00:00,  5
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [00:04<
+                   all       1205      16550      0.422      0.227      0.178      0.129
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+       8/25      11.4G      1.398      2.246     0.9966        422        640: 100%|██████████| 176/176 [00:31<00:00,  5
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [00:04<
+                   all       1205      16550      0.436       0.22      0.193       0.14
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+       9/25      13.1G      1.385      2.165     0.9959        962        640: 100%|██████████| 176/176 [00:30<00:00,  5
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [00:04<
+                   all       1205      16550      0.423      0.242      0.208       0.15
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+      10/25      8.54G      1.365      2.086     0.9887        649        640: 100%|██████████| 176/176 [00:31<00:00,  5
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [00:04<
+                   all       1205      16550      0.472      0.256      0.228      0.164
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+      11/25      8.54G      1.349      2.035     0.9873        404        640: 100%|██████████| 176/176 [00:30<00:00,  5
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [00:04<
+                   all       1205      16550      0.535      0.249      0.244      0.176
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+      12/25      8.54G      1.339      1.971     0.9834        580        640: 100%|██████████| 176/176 [00:30<00:00,  5
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [00:04<
+                   all       1205      16550      0.517      0.259      0.249       0.18
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+      13/25      8.54G      1.335      1.929     0.9811        544        640: 100%|██████████| 176/176 [00:30<00:00,  5
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [00:03<
+                   all       1205      16550      0.524      0.276      0.264       0.19
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+      14/25      8.54G      1.331      1.908     0.9805        638        640: 100%|██████████| 176/176 [00:31<00:00,  5
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [00:03<
+                   all       1205      16550      0.565      0.259      0.274      0.199
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+      15/25      8.54G      1.309      1.842     0.9769        513        640: 100%|██████████| 176/176 [00:30<00:00,  5
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [00:04<
+                   all       1205      16550      0.555      0.269       0.28      0.201
+Closing dataloader mosaic
+[34m[1malbumentations: [0mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01, num_output_channels=3, method='weighted_average'), CLAHE(p=0.01, clip_limit=(1.0, 4.0), tile_grid_size=(8, 8))
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+      16/25      8.54G      1.282      1.921     0.9613        486        640: 100%|██████████| 176/176 [00:31<00:00,  5
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [00:03<
+                   all       1205      16550      0.555      0.279      0.279      0.199
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+      17/25      8.54G      1.262      1.823     0.9521        338        640: 100%|██████████| 176/176 [00:30<00:00,  5
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [00:03<
+                   all       1205      16550      0.553      0.293      0.299      0.214
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+      18/25      8.54G      1.261      1.789     0.9529        198        640: 100%|██████████| 176/176 [00:29<00:00,  5
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [00:04<
+                   all       1205      16550      0.536      0.293      0.298      0.215
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+      19/25      8.54G       1.25      1.747     0.9504        231        640: 100%|██████████| 176/176 [00:29<00:00,  5
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [00:04<
+                   all       1205      16550      0.549      0.294      0.312      0.226
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+      20/25      10.2G      1.247      1.728     0.9486        247        640: 100%|██████████| 176/176 [00:29<00:00,  5
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [00:03<
+                   all       1205      16550      0.522      0.308      0.321      0.233
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+      21/25      10.2G      1.234       1.69     0.9444        298        640: 100%|██████████| 176/176 [00:29<00:00,  5
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [00:03<
+                   all       1205      16550      0.553        0.3      0.313      0.228
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+      22/25      10.2G      1.231      1.684     0.9411        231        640: 100%|██████████| 176/176 [00:29<00:00,  5
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [00:03<
+                   all       1205      16550      0.549      0.308      0.324      0.236
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+      23/25      10.2G      1.233      1.666     0.9445        223        640: 100%|██████████| 176/176 [00:30<00:00,  5
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [00:03<
+                   all       1205      16550      0.555      0.318      0.326      0.238
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+      24/25      10.2G      1.227      1.655     0.9448        255        640: 100%|██████████| 176/176 [00:29<00:00,  5
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [00:03<
+                   all       1205      16550      0.549       0.31      0.325      0.236
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+      25/25      10.2G       1.22      1.645     0.9421        263        640: 100%|██████████| 176/176 [00:29<00:00,  5
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [00:03<
+                   all       1205      16550       0.54      0.318      0.325      0.237
+
+25 epochs completed in 0.247 hours.
+Optimizer stripped from Second_phase_CropAndWeed_dataset-detection/yolov11n_bs32/weights/last.pt, 5.6MB
+Optimizer stripped from Second_phase_CropAndWeed_dataset-detection/yolov11n_bs32/weights/best.pt, 5.6MB
+
+Validating Second_phase_CropAndWeed_dataset-detection/yolov11n_bs32/weights/best.pt...
+Ultralytics 8.3.161 🚀 Python-3.8.0 torch-2.4.1+cu118 CUDA:0 (NVIDIA RTX A5000, 24234MiB)
+YOLO11n summary (fused): 100 layers, 2,647,891 parameters, 0 gradients, 6.6 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [00:06<
+                   all       1205      16550      0.555      0.317      0.326      0.238
+                 Maize        188        621      0.641      0.878       0.76      0.566
+  Maize two-leaf stage         67        199      0.348      0.452      0.341      0.249
+ Maize four-leaf stage         26         66      0.411      0.379      0.369      0.305
+  Maize six-leaf stage         13         28      0.285      0.179      0.363      0.286
+Maize eight-leaf stage          2          4          1          0      0.264      0.188
+             Maize max          1          4          0          0          0          0
+            Sugar beet         68        248      0.628      0.728      0.676      0.475
+Sugar beet two-leaf stage         47        239      0.588      0.688      0.656      0.467
+Sugar beet four-leaf stage         39        157      0.602      0.841      0.837      0.721
+Sugar beet six-leaf stage         32        310       0.73      0.877      0.886      0.764
+Sugar beet eight-leaf stage          7         26      0.409      0.769      0.394      0.312
+        Sugar beet Max          1          1          0          0     0.0269     0.0269
+                   Pea         27        104      0.573      0.702      0.644      0.346
+             Courgette          3          3          1          0      0.372      0.372
+              Pumpkins         41         81      0.607      0.877      0.885        0.8
+                Potato         22         81      0.698      0.605      0.658      0.562
+     Flat leaf parsley          4          8          1      0.223      0.723      0.693
+    Curly leaf parsley          1          3      0.679      0.667      0.666      0.666
+               Cowslip          5         28      0.828      0.515      0.575      0.498
+                 Poppy          1          6          1          0          0          0
+             Sunflower         98        297      0.693      0.777      0.805      0.676
+           Common bean          2         25      0.675       0.76      0.772      0.662
+             Faba bean         35        139      0.709      0.547      0.602      0.503
+      Hybrid goosefoot         32         53      0.574      0.321      0.316      0.303
+        Black-bindweed          8         17      0.747      0.412      0.427       0.38
+        Cockspur grass         44        240      0.406      0.486      0.416      0.229
+     Red-root amaranth         73        352      0.265      0.273      0.211      0.121
+       White goosefoot        162        455      0.392      0.294      0.289      0.161
+           Thorn apple         31        104      0.618      0.433      0.464      0.388
+           Potato weed         88        340      0.441      0.285      0.301      0.177
+      German chamomile         41        239      0.565      0.682      0.669      0.491
+      Creeping thistle         68        320      0.485      0.641      0.597      0.409
+    Field milk thistle         77        451      0.539      0.346      0.379      0.189
+              Purslane          4          8          1          0          0          0
+             Mercuries        123        166      0.431     0.0422      0.122     0.0592
+             Geraniums         10        225     0.0968     0.0222     0.0287    0.00956
+          Meadow-grass        123        676      0.385      0.426      0.368      0.178
+       Shepherds purse          1          2          0          0          0          0
+        Field bindweed         21        103      0.554     0.0965      0.155     0.0999
+         Hedge mustard          2          3          1          0          0          0
+             Speedwell         10         15          1          0       0.01     0.0074
+    Broadleaf plantain          1          1          1          0          0          0
+            Peppermint         16         37          0          0     0.0215     0.0106
+      Field pennycress         19         30          1          0     0.0671     0.0483
+           Corn spurry         24        167      0.498      0.527      0.479       0.23
+      Purple crabgrass         13         66       0.54      0.348      0.356      0.229
+       Common fumitory         12         24      0.562      0.458      0.501      0.423
+  Ivy-leaved speedwell          9         22      0.218     0.0455     0.0706     0.0362
+   Annual meadow grass          3         59       0.16      0.119     0.0867     0.0259
+              Redshank         19         62      0.321      0.226      0.265      0.187
+    Rough meadow-grass          5         82      0.409     0.0732      0.084     0.0255
+    Green bristlegrass        247       1756      0.474      0.348      0.351      0.122
+        Small geranium         60        627      0.381      0.228      0.217     0.0783
+            Cornflower         41        292      0.437      0.462      0.407      0.262
+    Common corn-cockle         31        228      0.489       0.74      0.626      0.418
+           Wall barley         14         64      0.293      0.562      0.468      0.299
+    Purple dead-nettle          5          6          1          0     0.0328     0.0295
+      Ribwort plantain         14        133      0.525      0.348      0.406      0.214
+         Pineappleweed         10         85       0.24      0.541      0.409      0.267
+      Common chickweed         13         32          1          0     0.0509     0.0354
+         Hedge mustard         19        123      0.399      0.171      0.155      0.114
+            Soft brome         11         94      0.347      0.287      0.246      0.144
+            Wild pansy          9         30          1          0     0.0929     0.0519
+         Yellow rocket         12         34      0.335      0.253      0.177      0.124
+       Common wild oat         17         68      0.254      0.103      0.152      0.112
+             Red poppy          3         39      0.643      0.308      0.365      0.261
+             Rye brome         11        125      0.276      0.272      0.221      0.119
+             Knotgrass          9        121          1          0    0.00377    0.00281
+        Copse-bindweed        133        257      0.392       0.23      0.232      0.139
+      Common buckwheat         11         28          1          0      0.026     0.0135
+                Garlic          1          2          0          0          0          0
+               Soybean         40        505      0.454      0.808      0.676      0.388
+           Wild carrot          4         11          1          0     0.0402      0.035
+         Field mustard         10        159          1          0     0.0192     0.0146
+            Vegetation        763       4734       0.37      0.076       0.13     0.0422
+Speed: 0.1ms preprocess, 0.4ms inference, 0.0ms loss, 0.8ms postprocess per image
+Results saved to [1mSecond_phase_CropAndWeed_dataset-detection/yolov11n_bs32[0m

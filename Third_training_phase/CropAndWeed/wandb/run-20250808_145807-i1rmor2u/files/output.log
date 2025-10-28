@@ -1,0 +1,214 @@
+Training set: 5623 immagini
+Validation set: 1205 immagini
+Test set: 1206 immagini
+Conteggio pixel per classe: 100%|██████████████████████████████████████████████████| 5623/5623 [00:31<00:00, 180.87it/s]
+
+✅ Classi uniche trovate nel training set: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 18, 19, 20, 21, 22, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 38, 39, 40, 41, 42, 45, 46, 48, 51, 52, 53, 54, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 91, 94, 95, 96, 99]
+📊 Pixel per classe:
+Classe  0:  356540784
+Classe  1:    1022618
+Classe  2:     105357
+Classe  3:     230732
+Classe  4:     181993
+Classe  5:      49226
+Classe  6:       8754
+Classe  7:     555090
+Classe  8:      43124
+Classe  9:     186893
+Classe 10:     752659
+Classe 11:     614919
+Classe 12:     216442
+Classe 13:      56860
+Classe 14:      10937
+Classe 15:     372084
+Classe 16:          0
+Classe 17:          0
+Classe 18:     222091
+Classe 19:      33650
+Classe 20:      97426
+Classe 21:     132333
+Classe 22:       7131
+Classe 23:          0
+Classe 24:     563997
+Classe 25:       3028
+Classe 26:      29714
+Classe 27:     191057
+Classe 28:          0
+Classe 29:     450416
+Classe 30:      62844
+Classe 31:     253003
+Classe 32:     821193
+Classe 33:     707056
+Classe 34:     469398
+Classe 35:     227417
+Classe 36:     557487
+Classe 37:          0
+Classe 38:     703743
+Classe 39:     174070
+Classe 40:      54581
+Classe 41:      23058
+Classe 42:      30319
+Classe 43:          0
+Classe 44:          0
+Classe 45:      62133
+Classe 46:       4482
+Classe 47:          0
+Classe 48:     139594
+Classe 49:          0
+Classe 50:          0
+Classe 51:       2347
+Classe 52:      52421
+Classe 53:        341
+Classe 54:       1421
+Classe 55:          0
+Classe 56:       2154
+Classe 57:        395
+Classe 58:        427
+Classe 59:       8287
+Classe 60:       9342
+Classe 61:      23804
+Classe 62:      38890
+Classe 63:      27458
+Classe 64:       6945
+Classe 65:      15149
+Classe 66:      45477
+Classe 67:          0
+Classe 68:       8343
+Classe 69:      91351
+Classe 70:      99824
+Classe 71:     125616
+Classe 72:     111757
+Classe 73:          0
+Classe 74:      37666
+Classe 75:       8552
+Classe 76:       2630
+Classe 77:      28321
+Classe 78:      60078
+Classe 79:      19128
+Classe 80:      38237
+Classe 81:      14251
+Classe 82:      10848
+Classe 83:      17851
+Classe 84:      37925
+Classe 85:      16567
+Classe 86:      26568
+Classe 87:       5293
+Classe 88:       1157
+Classe 89:      49340
+Classe 90:          0
+Classe 91:       5279
+Classe 92:          0
+Classe 93:          0
+Classe 94:     301802
+Classe 95:      13195
+Classe 96:       3425
+Classe 97:          0
+Classe 98:          0
+Classe 99:        465
+Classe 100:          0
+
+⚖️ Pesi calcolati per CrossEntropyLoss (log balanced):
+Classe  0: Peso = 0.709559
+Classe  1: Peso = 5.889413
+Classe  2: Peso = 8.159693
+Classe  3: Peso = 7.376131
+Classe  4: Peso = 7.613288
+Classe  5: Peso = 8.920473
+Classe  6: Peso = 10.647275
+Classe  7: Peso = 6.499137
+Classe  8: Peso = 9.052799
+Classe  9: Peso = 7.586733
+Classe 10: Peso = 6.195191
+Classe 11: Peso = 6.396939
+Classe 12: Peso = 7.440027
+Classe 13: Peso = 8.776324
+Classe 14: Peso = 10.424640
+Classe 15: Peso = 6.898652
+Classe 16: Peso = 33.540028
+Classe 17: Peso = 33.540028
+Classe 18: Peso = 7.414277
+Classe 19: Peso = 9.300840
+Classe 20: Peso = 8.237933
+Classe 21: Peso = 7.931799
+Classe 22: Peso = 10.852330
+Classe 23: Peso = 33.540028
+Classe 24: Peso = 6.483243
+Classe 25: Peso = 11.708868
+Classe 26: Peso = 9.425224
+Classe 27: Peso = 7.564709
+Classe 28: Peso = 33.540028
+Classe 29: Peso = 6.707812
+Classe 30: Peso = 8.676277
+Classe 31: Peso = 7.284047
+Classe 32: Peso = 6.108231
+Classe 33: Peso = 6.257570
+Classe 34: Peso = 6.666584
+Classe 35: Peso = 7.390594
+Classe 36: Peso = 6.494835
+Classe 37: Peso = 33.540028
+Classe 38: Peso = 6.262257
+Classe 39: Peso = 7.657777
+Classe 40: Peso = 8.817224
+Classe 41: Peso = 9.678812
+Classe 42: Peso = 9.405069
+Classe 43: Peso = 33.540028
+Classe 44: Peso = 33.540028
+Classe 45: Peso = 8.687653
+Classe 46: Peso = 11.316705
+Classe 47: Peso = 33.540028
+Classe 48: Peso = 7.878402
+Classe 49: Peso = 33.540028
+Classe 50: Peso = 33.540028
+Classe 51: Peso = 11.963630
+Classe 52: Peso = 8.857597
+Classe 53: Peso = 13.892635
+Classe 54: Peso = 12.465405
+Classe 55: Peso = 33.540028
+Classe 56: Peso = 12.049441
+Classe 57: Peso = 13.745632
+Classe 58: Peso = 13.667734
+Classe 59: Peso = 10.702096
+Classe 60: Peso = 10.582267
+Classe 61: Peso = 9.646973
+Classe 62: Peso = 9.156130
+Classe 63: Peso = 9.504179
+Classe 64: Peso = 10.878759
+Classe 65: Peso = 10.098868
+Classe 66: Peso = 8.999679
+Classe 67: Peso = 33.540028
+Classe 68: Peso = 10.695362
+Classe 69: Peso = 8.302301
+Classe 70: Peso = 8.213624
+Classe 71: Peso = 7.983873
+Classe 72: Peso = 8.100738
+Classe 73: Peso = 33.540028
+Classe 74: Peso = 9.188106
+Classe 75: Peso = 10.670620
+Classe 76: Peso = 11.849785
+Classe 77: Peso = 9.473235
+Classe 78: Peso = 8.721281
+Classe 79: Peso = 9.865660
+Classe 80: Peso = 9.173062
+Classe 81: Peso = 10.159973
+Classe 82: Peso = 10.432810
+Classe 83: Peso = 9.934751
+Classe 84: Peso = 9.181254
+Classe 85: Peso = 10.009394
+Classe 86: Peso = 9.537126
+Classe 87: Peso = 11.150391
+Classe 88: Peso = 12.670934
+Classe 89: Peso = 8.918161
+Classe 90: Peso = 33.540028
+Classe 91: Peso = 11.153039
+Classe 92: Peso = 33.540028
+Classe 93: Peso = 33.540028
+Classe 94: Peso = 7.107810
+Classe 95: Peso = 10.236960
+Classe 96: Peso = 11.585670
+Classe 97: Peso = 33.540028
+Classe 98: Peso = 33.540028
+Classe 99: Peso = 13.582481
+Classe 100: Peso = 33.540028
+
+Epoch 1/50
+Training:   0%|                                                                                 | 0/176 [00:02<?, ?it/s]

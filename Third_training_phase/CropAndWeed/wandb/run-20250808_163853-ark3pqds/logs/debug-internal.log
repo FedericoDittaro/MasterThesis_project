@@ -1,0 +1,35 @@
+{"time":"2025-08-08T16:38:53.915993334+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/media/HDD/fdittaro/Third_training_phase/CropAndWeed/wandb/run-20250808_163853-ark3pqds/logs/debug-core.log"}
+{"time":"2025-08-08T16:38:54.205249284+02:00","level":"INFO","msg":"created new stream","id":"ark3pqds"}
+{"time":"2025-08-08T16:38:54.205332171+02:00","level":"INFO","msg":"stream: started","id":"ark3pqds"}
+{"time":"2025-08-08T16:38:54.205405501+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"ark3pqds"}
+{"time":"2025-08-08T16:38:54.205469964+02:00","level":"INFO","msg":"handler: started","stream_id":"ark3pqds"}
+{"time":"2025-08-08T16:38:54.205546873+02:00","level":"INFO","msg":"sender: started","stream_id":"ark3pqds"}
+{"time":"2025-08-08T16:38:54.444137487+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-08T16:38:57.554171213+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-08T16:38:57.561427098+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-08T16:39:04.728778378+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-08T16:39:04.769230797+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-08T16:39:07.42592916+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-08T16:39:07.504636121+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-08T16:39:15.388520773+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-08T16:39:47.518580366+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-08T16:40:00.317795603+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-08T16:40:00.335856943+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-08T16:40:03.454212325+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-08T16:40:03.454870963+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-08T16:40:06.431002926+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-08T16:40:06.473211424+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-08T16:40:12.423301624+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-08T17:01:40.084864083+02:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/federico-dittaro-university-of-udine/Third_phase_CropAndWeed_dataset-segmentation/ark3pqds/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-08-08T18:21:54.640758549+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-08-08T18:26:42.423856217+02:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/federico-dittaro-university-of-udine/Third_phase_CropAndWeed_dataset-segmentation/ark3pqds/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-08-08T18:53:09.652575198+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-08-08T19:15:13.965052473+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-08T19:15:13.965075834+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-08T19:15:14.970041392+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.478699573,"progress":"37.7KB/37.7KB"}],"total_operations":1}}
+{"time":"2025-08-08T19:15:14.972321102+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-08T19:15:16.081585804+02:00","level":"INFO","msg":"stream: closing","id":"ark3pqds"}
+{"time":"2025-08-08T19:15:16.081627713+02:00","level":"INFO","msg":"handler: closed","stream_id":"ark3pqds"}
+{"time":"2025-08-08T19:15:16.081650208+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ark3pqds"}
+{"time":"2025-08-08T19:15:16.081706052+02:00","level":"INFO","msg":"sender: closed","stream_id":"ark3pqds"}
+{"time":"2025-08-08T19:15:16.081781838+02:00","level":"INFO","msg":"stream: closed","id":"ark3pqds"}

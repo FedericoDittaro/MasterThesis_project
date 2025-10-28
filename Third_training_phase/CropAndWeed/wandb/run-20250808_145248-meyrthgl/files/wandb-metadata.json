@@ -1,0 +1,40 @@
+{
+  "os": "Linux-5.4.0-150-generic-x86_64-with-glibc2.27",
+  "python": "CPython 3.8.0",
+  "startedAt": "2025-08-08T12:52:48.366898Z",
+  "program": "Third_training_phase/CropAndWeed/CropAndWeed_segmentation.ipynb",
+  "email": "fede.dittaro@gmail.com",
+  "root": "/media/HDD/fdittaro/Third_training_phase/CropAndWeed",
+  "host": "bernini",
+  "executable": "/media/HDD/fdittaro/env/bin/python3",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "gpu": "NVIDIA RTX A5000",
+  "gpu_count": 2,
+  "disk": {
+    "/": {
+      "total": "982820896768",
+      "used": "909921587200"
+    }
+  },
+  "memory": {
+    "total": "33583550464"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 8
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA RTX A5000",
+      "memoryTotal": "25434652672",
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A5000",
+      "memoryTotal": "25434652672",
+      "architecture": "Ampere"
+    }
+  ],
+  "cudaVersion": "11.4"
+}

@@ -1,0 +1,16 @@
+{"time":"2025-07-10T17:17:39.450656519+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/media/HDD/fdittaro/Second_traing_phase/Object-detection/wandb/run-20250710_171739-nlwpwy3b/logs/debug-core.log"}
+{"time":"2025-07-10T17:17:39.748992098+02:00","level":"INFO","msg":"created new stream","id":"nlwpwy3b"}
+{"time":"2025-07-10T17:17:39.74916491+02:00","level":"INFO","msg":"handler: started","stream_id":"nlwpwy3b"}
+{"time":"2025-07-10T17:17:39.749223807+02:00","level":"INFO","msg":"sender: started","stream_id":"nlwpwy3b"}
+{"time":"2025-07-10T17:17:39.749247307+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"nlwpwy3b"}
+{"time":"2025-07-10T17:17:39.74916698+02:00","level":"INFO","msg":"stream: started","id":"nlwpwy3b"}
+{"time":"2025-07-10T17:17:40.038128255+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-10T17:32:33.979792578+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-10T17:32:33.979833806+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-10T17:32:34.984802024+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-nlwpwy3b-curvesF1-ConfidenceB_table","runtime_seconds":2.387179319},{"desc":"uploading artifact run-nlwpwy3b-curvesPrecision-ConfidenceB_table","runtime_seconds":1.749149111},{"desc":"uploading artifact run-nlwpwy3b-curvesRecall-ConfidenceB_table","runtime_seconds":1.098845703,"subtasks":[{"desc":"curves/Recall-Confidence(B)_table.table.json","runtime_seconds":0.33024847,"progress":"238.5KB/238.5KB"}]}],"total_operations":3}}
+{"time":"2025-07-10T17:32:36.282629919+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-10T17:32:36.533250318+02:00","level":"INFO","msg":"stream: closing","id":"nlwpwy3b"}
+{"time":"2025-07-10T17:32:36.53325686+02:00","level":"INFO","msg":"handler: closed","stream_id":"nlwpwy3b"}
+{"time":"2025-07-10T17:32:36.533264956+02:00","level":"INFO","msg":"sender: closed","stream_id":"nlwpwy3b"}
+{"time":"2025-07-10T17:32:36.53326144+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"nlwpwy3b"}
+{"time":"2025-07-10T17:32:36.533293002+02:00","level":"INFO","msg":"stream: closed","id":"nlwpwy3b"}

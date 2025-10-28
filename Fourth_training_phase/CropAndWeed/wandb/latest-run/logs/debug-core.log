@@ -1,0 +1,15 @@
+{"time":"2025-08-18T17:54:51.014552304+02:00","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmpow4vsvk_/port-2750.txt","pid":2750,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false}
+{"time":"2025-08-18T17:54:51.016953314+02:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":2750}
+{"time":"2025-08-18T17:54:51.016929913+02:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":44771,"Zone":""}}
+{"time":"2025-08-18T17:54:51.210503968+02:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:50934"}
+{"time":"2025-08-18T17:54:57.092050101+02:00","level":"INFO","msg":"handleInformInit: received","streamId":"5t3aqxhx","id":"127.0.0.1:50934"}
+{"time":"2025-08-18T17:54:57.627586254+02:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"5t3aqxhx","id":"127.0.0.1:50934"}
+{"time":"2025-08-18T20:41:43.33196299+02:00","level":"INFO","msg":"handleInformFinish: finish message received","streamId":"5t3aqxhx","id":"127.0.0.1:50934"}
+{"time":"2025-08-18T20:41:43.332227771+02:00","level":"INFO","msg":"handleInformFinish: stream closed","streamId":"5t3aqxhx","id":"127.0.0.1:50934"}
+{"time":"2025-08-18T20:42:18.361609773+02:00","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"127.0.0.1:50934"}
+{"time":"2025-08-18T20:42:18.361689627+02:00","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"127.0.0.1:50934"}
+{"time":"2025-08-18T20:42:18.361709343+02:00","level":"INFO","msg":"server is shutting down"}
+{"time":"2025-08-18T20:42:18.361719014+02:00","level":"INFO","msg":"connection: closing","id":"127.0.0.1:50934"}
+{"time":"2025-08-18T20:42:18.361942515+02:00","level":"INFO","msg":"connection: closed successfully","id":"127.0.0.1:50934"}
+{"time":"2025-08-18T20:42:18.361969099+02:00","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"127.0.0.1:50934"}
+{"time":"2025-08-18T20:42:18.361991788+02:00","level":"INFO","msg":"server is closed"}

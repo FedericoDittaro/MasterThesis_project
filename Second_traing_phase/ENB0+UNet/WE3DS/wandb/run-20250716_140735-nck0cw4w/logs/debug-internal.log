@@ -1,0 +1,33 @@
+{"time":"2025-07-16T14:07:35.12468847+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/media/HDD/fdittaro/Second_traing_phase/ENB0+UNet/WE3DS/wandb/run-20250716_140735-nck0cw4w/logs/debug-core.log"}
+{"time":"2025-07-16T14:07:35.41256686+02:00","level":"INFO","msg":"created new stream","id":"nck0cw4w"}
+{"time":"2025-07-16T14:07:35.412634162+02:00","level":"INFO","msg":"stream: started","id":"nck0cw4w"}
+{"time":"2025-07-16T14:07:35.412664712+02:00","level":"INFO","msg":"handler: started","stream_id":"nck0cw4w"}
+{"time":"2025-07-16T14:07:35.412734974+02:00","level":"INFO","msg":"sender: started","stream_id":"nck0cw4w"}
+{"time":"2025-07-16T14:07:35.412763824+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"nck0cw4w"}
+{"time":"2025-07-16T14:07:35.738990687+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-16T14:07:38.980229443+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-16T14:07:38.983380156+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-16T14:07:51.292546779+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-16T14:07:51.30455442+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-16T14:07:53.452641377+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-16T14:07:53.529217817+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-16T14:07:55.671954568+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-16T14:07:56.614534542+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-16T14:07:57.420219933+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-16T14:07:57.420876681+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-16T14:07:59.53203336+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-16T14:07:59.532999451+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-16T14:08:06.441169954+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-16T14:13:13.004100343+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-16T14:13:17.924830799+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-16T14:14:06.628857264+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-16T14:14:35.849658966+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-16T14:14:35.879614097+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-16T14:14:35.879642953+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-16T14:14:36.478174517+02:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/federico-dittaro-university-of-udine/Second_phase_WE3DS_dataset-segmentation/nck0cw4w/file_stream"}
+{"time":"2025-07-16T14:14:36.478265653+02:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/federico-dittaro-university-of-udine/Second_phase_WE3DS_dataset-segmentation/nck0cw4w/file_stream: {\"error\":\"run Second_phase_WE3DS_dataset-segmentation/nck0cw4w not found while streaming file\"}"}
+{"time":"2025-07-16T14:14:36.883440432+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run config","runtime_seconds":0.786178632}],"total_operations":1}}
+{"time":"2025-07-16T14:14:38.053471148+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run nck0cw4w was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-07-16T14:14:40.378762183+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run nck0cw4w was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-07-16T14:14:45.375581068+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run nck0cw4w was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-07-16T14:14:49.902875441+02:00","level":"INFO","msg":"stream: closing","id":"nck0cw4w"}

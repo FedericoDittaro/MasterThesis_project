@@ -1,0 +1,31 @@
+{"time":"2025-08-12T16:20:52.768615433+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/media/HDD/fdittaro/Third_training_phase/CropAndWeed/wandb/run-20250812_162052-t5mdzyd4/logs/debug-core.log"}
+{"time":"2025-08-12T16:20:53.07691536+02:00","level":"INFO","msg":"created new stream","id":"t5mdzyd4"}
+{"time":"2025-08-12T16:20:53.076938775+02:00","level":"INFO","msg":"stream: started","id":"t5mdzyd4"}
+{"time":"2025-08-12T16:20:53.076975825+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"t5mdzyd4"}
+{"time":"2025-08-12T16:20:53.077024277+02:00","level":"INFO","msg":"sender: started","stream_id":"t5mdzyd4"}
+{"time":"2025-08-12T16:20:53.077050735+02:00","level":"INFO","msg":"handler: started","stream_id":"t5mdzyd4"}
+{"time":"2025-08-12T16:20:53.429771681+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-12T16:20:55.777446964+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-12T16:20:55.783570212+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-12T16:20:59.227304069+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-12T16:20:59.229629297+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-12T16:21:02.334339786+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-12T16:21:02.414168133+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-12T16:21:11.291784283+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-12T16:21:11.292880819+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-12T16:21:14.881885127+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-12T16:21:15.887520962+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-12T16:21:17.495397496+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-12T16:21:17.496083265+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-12T16:21:19.390123175+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-12T16:21:19.391155156+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-08-12T16:21:23.346972377+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-08-12T19:17:51.85161148+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-12T19:17:51.851661678+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-12T19:17:52.856340833+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.072636028},{"desc":"uploading wandb-summary.json","runtime_seconds":0.072610807}],"total_operations":2}}
+{"time":"2025-08-12T19:17:53.214147814+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-12T19:17:53.483383503+02:00","level":"INFO","msg":"stream: closing","id":"t5mdzyd4"}
+{"time":"2025-08-12T19:17:53.483426891+02:00","level":"INFO","msg":"handler: closed","stream_id":"t5mdzyd4"}
+{"time":"2025-08-12T19:17:53.4834488+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"t5mdzyd4"}
+{"time":"2025-08-12T19:17:53.483501391+02:00","level":"INFO","msg":"sender: closed","stream_id":"t5mdzyd4"}
+{"time":"2025-08-12T19:17:53.483569002+02:00","level":"INFO","msg":"stream: closed","id":"t5mdzyd4"}

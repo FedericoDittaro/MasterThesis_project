@@ -1,0 +1,30 @@
+{"time":"2025-07-15T09:04:57.591381157+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/media/HDD/fdittaro/Second_traing_phase/MNV2+UNet++/WE3DS/wandb/run-20250715_090457-45qgh51t/logs/debug-core.log"}
+{"time":"2025-07-15T09:04:57.892327779+02:00","level":"INFO","msg":"created new stream","id":"45qgh51t"}
+{"time":"2025-07-15T09:04:57.89240123+02:00","level":"INFO","msg":"stream: started","id":"45qgh51t"}
+{"time":"2025-07-15T09:04:57.892477701+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"45qgh51t"}
+{"time":"2025-07-15T09:04:57.89253681+02:00","level":"INFO","msg":"sender: started","stream_id":"45qgh51t"}
+{"time":"2025-07-15T09:04:57.892603092+02:00","level":"INFO","msg":"handler: started","stream_id":"45qgh51t"}
+{"time":"2025-07-15T09:04:58.279013269+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-15T09:05:02.945333948+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-15T09:05:02.948650242+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-15T09:05:21.06388347+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-15T09:05:21.066337852+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-15T09:05:49.634278949+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-15T09:05:49.731074987+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-15T09:05:55.112075017+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-15T09:05:56.033283101+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-15T09:05:57.974888044+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-15T09:05:57.975581869+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-15T09:06:03.701683547+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-15T09:06:03.702786977+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-15T09:06:12.801102251+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-15T09:07:59.682503524+02:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/graphql","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-07-15T10:41:10.797849467+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-15T10:41:10.797873109+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-15T10:41:11.802261196+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.611841949,"progress":"285B/285B"},{"desc":"uploading config.yaml","runtime_seconds":0.429003921,"progress":"781B/781B"}],"total_operations":2}}
+{"time":"2025-07-15T10:41:11.986793361+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-15T10:41:12.258200516+02:00","level":"INFO","msg":"stream: closing","id":"45qgh51t"}
+{"time":"2025-07-15T10:41:12.258244102+02:00","level":"INFO","msg":"handler: closed","stream_id":"45qgh51t"}
+{"time":"2025-07-15T10:41:12.25826597+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"45qgh51t"}
+{"time":"2025-07-15T10:41:12.258326732+02:00","level":"INFO","msg":"sender: closed","stream_id":"45qgh51t"}
+{"time":"2025-07-15T10:41:12.258394521+02:00","level":"INFO","msg":"stream: closed","id":"45qgh51t"}

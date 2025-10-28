@@ -1,0 +1,31 @@
+{"time":"2025-07-30T15:39:29.352969744+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/media/HDD/fdittaro/Third_training_phase/WE3DS/wandb/run-20250730_153929-rf4wimy3/logs/debug-core.log"}
+{"time":"2025-07-30T15:39:29.638697732+02:00","level":"INFO","msg":"created new stream","id":"rf4wimy3"}
+{"time":"2025-07-30T15:39:29.638718677+02:00","level":"INFO","msg":"stream: started","id":"rf4wimy3"}
+{"time":"2025-07-30T15:39:29.638763298+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"rf4wimy3"}
+{"time":"2025-07-30T15:39:29.638791859+02:00","level":"INFO","msg":"sender: started","stream_id":"rf4wimy3"}
+{"time":"2025-07-30T15:39:29.6388181+02:00","level":"INFO","msg":"handler: started","stream_id":"rf4wimy3"}
+{"time":"2025-07-30T15:39:29.979919863+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-30T15:39:37.547652457+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-30T15:39:37.550556391+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-30T15:39:48.331444213+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-30T15:39:48.333685691+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-30T15:39:55.833899212+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-30T15:39:55.91638469+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-30T15:39:59.202620924+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-30T15:40:00.161213845+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-30T15:40:04.800399087+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-30T15:40:04.801305554+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-30T15:40:22.373874501+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-30T15:40:22.374913051+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-30T15:40:27.49356134+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-30T15:42:26.405190167+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-30T15:43:12.293615036+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-30T17:21:05.947960961+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-30T17:21:05.948005184+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-30T17:21:06.935581578+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-30T17:21:06.95210794+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 49-49, summary, console lines 306-308","runtime_seconds":0.016375242}],"total_operations":1}}
+{"time":"2025-07-30T17:21:07.299480671+02:00","level":"INFO","msg":"stream: closing","id":"rf4wimy3"}
+{"time":"2025-07-30T17:21:07.299525859+02:00","level":"INFO","msg":"handler: closed","stream_id":"rf4wimy3"}
+{"time":"2025-07-30T17:21:07.29954736+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rf4wimy3"}
+{"time":"2025-07-30T17:21:07.299565634+02:00","level":"INFO","msg":"sender: closed","stream_id":"rf4wimy3"}
+{"time":"2025-07-30T17:21:07.299688272+02:00","level":"INFO","msg":"stream: closed","id":"rf4wimy3"}

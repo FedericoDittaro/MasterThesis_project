@@ -1,0 +1,31 @@
+{"time":"2025-07-31T10:19:31.47935368+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/media/HDD/fdittaro/Third_training_phase/CropAndWeed/wandb/run-20250731_101931-j6p68v0e/logs/debug-core.log"}
+{"time":"2025-07-31T10:19:31.768027238+02:00","level":"INFO","msg":"created new stream","id":"j6p68v0e"}
+{"time":"2025-07-31T10:19:31.768137751+02:00","level":"INFO","msg":"stream: started","id":"j6p68v0e"}
+{"time":"2025-07-31T10:19:31.768215599+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"j6p68v0e"}
+{"time":"2025-07-31T10:19:31.768309916+02:00","level":"INFO","msg":"sender: started","stream_id":"j6p68v0e"}
+{"time":"2025-07-31T10:19:31.768378169+02:00","level":"INFO","msg":"handler: started","stream_id":"j6p68v0e"}
+{"time":"2025-07-31T10:19:32.108827818+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-31T10:19:36.849309387+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-31T10:19:36.855705352+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-31T10:19:42.190566588+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-31T10:19:42.192823417+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-31T10:19:50.128987381+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-31T10:19:50.206960565+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-31T10:19:52.638766598+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-31T10:19:53.605129598+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-31T10:19:55.701181777+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-31T10:19:55.702355727+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-31T10:20:14.054018116+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-31T10:20:14.097170661+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-31T10:20:17.524651122+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-31T11:20:47.759900762+02:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/federico-dittaro-university-of-udine/Third_phase_CropAndWeed_dataset-segmentation/j6p68v0e/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-07-31T12:21:51.035272138+02:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/federico-dittaro-university-of-udine/Third_phase_CropAndWeed_dataset-segmentation/j6p68v0e/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-07-31T12:55:47.28495039+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-31T12:55:47.284969899+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-31T12:55:48.18822733+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-31T12:55:48.290141216+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading summary, console lines 301-304","runtime_seconds":0.10171938}],"total_operations":1}}
+{"time":"2025-07-31T12:55:48.446397406+02:00","level":"INFO","msg":"stream: closing","id":"j6p68v0e"}
+{"time":"2025-07-31T12:55:48.446439853+02:00","level":"INFO","msg":"handler: closed","stream_id":"j6p68v0e"}
+{"time":"2025-07-31T12:55:48.446460966+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"j6p68v0e"}
+{"time":"2025-07-31T12:55:48.446521454+02:00","level":"INFO","msg":"sender: closed","stream_id":"j6p68v0e"}
+{"time":"2025-07-31T12:55:48.446599402+02:00","level":"INFO","msg":"stream: closed","id":"j6p68v0e"}
